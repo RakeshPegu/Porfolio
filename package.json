@@ -4,7 +4,10 @@
   "description": "this is one of the project I have built for myself, so basically this is a portfolio project of mine   where i have used React.js for my frontend, and for backend I used Node.js, Expres.js and to style I used tailwindcss unlike other projects where i used css or sass to style , here i tried to focus on writting clean code and components reusability and  I tried to  practice atomic design principle to design the UI components, Basically We can say I focused on optimization of the Frontend and It's architecture",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "install-client":"cd frontend/react-app && npm install ",
+      "build-client":"cd frontend/react-app && npm run build",
+      "start-client":"cd frontend/react-app && npm run  start"
+
   },
   "keywords": [],
   "author": "",
