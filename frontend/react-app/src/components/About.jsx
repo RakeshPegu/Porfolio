@@ -1,10 +1,10 @@
 import React from 'react';
-import Card from './Card';
+import Card from '../Cards/Card';
 
 
 function About (){
   return (
-      <div className='flex flex-col bg-gray-300   w-[97%] p-10'>
+      <div className='flex flex-col bg-gray-600 text-white   w-[97%] p-10'>
         <h1 className='text-5xl text-center mb-20 mt-10 '> About me </h1>
         <div className='flex flex-col gap-4 text-xl   font-serif'>
             <p>Hey there! I'm Rakesh, a self-taught web developer with nearly two years of experience in building and designing web applications. My journey into coding started with pure curiosity, and it quickly became a passion.</p>

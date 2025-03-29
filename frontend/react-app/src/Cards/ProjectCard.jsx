@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Buttons from './buttons';
+import { Buttons } from '../Element.jsx/Atom';
 
 function ProjectCard ({name, description, sitelink, src ,githublink}){
   return (

@@ -25,7 +25,7 @@ const Footer = () => {
         
          <div className="flex flex-col gap-3">
          <span><FontAwesomeIcon icon="fa-solid fa-phone" className='text-gray-950' /> Phone : +91 894040200</span>
-         <sp><FontAwesomeIcon icon="fa-solid fa-envelope" className='text-gray-950' /> E-mail: rpegu950@gmail.com</sp>
+         <span><FontAwesomeIcon icon="fa-solid fa-envelope" className='text-gray-950' /> E-mail: rpegu950@gmail.com</span>
          </div>
        
          <div className="flex flex-row gap-5 mt-3">

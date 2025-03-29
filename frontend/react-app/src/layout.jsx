@@ -6,14 +6,14 @@ import Footer from './components/Footer';
 
 const Layout = () => {
   return (
-    <div>
+    <div className='overflow-y-auto'>
       <div className='fixed z-50'>
         <Navbar/>
       </div>
-      <div  >
+      <div >
         <Outlet/>
       </div>
-      <div>
+      <div >
         <Footer/>
       </div>
     </div>
