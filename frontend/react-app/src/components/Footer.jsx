@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 library.add(fas, faS, faSquareFacebook, faLinkedin, faXTwitter, faSquareInstagram)
 const Footer = () => {
   return (
-    <div className='bg-gray-600 pb-5'>
+    <div className='bg-gray-600 pb-5' id="contact">
     <div className="  flex flex-row pt-10 text-white">
      <div className=" flex-1 flex flex-col items-center ">
         <h2 className='text-2xl mb-5  '>INFORMATION</h2>

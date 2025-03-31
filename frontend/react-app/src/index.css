@@ -7,8 +7,14 @@
    
     --h-x-screen:650vh;
     --text-medium:1.2em;
-    
-    
+   --animate-throw : throw 2s ease forwards;
+   @keyframes throw {
+    from {top:450px; opacity: 0.2; }
+    to { top:350px; opacity: 1;}
+   }  
+
+   
+      
   
 
 }

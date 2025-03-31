@@ -1,10 +1,18 @@
 import React from 'react';
-import { Buttons } from '../Element.jsx/Atom';
+import { Buttons } from '../Element/Elements';
+import Animate from './Animate';
 
 function HomeCom (){
+  const handleOnclick = ()=>{
+    const projects = document.getElementById('projects')
+    console.log(projects)
+    if(projects){
+      projects.scrollIntoView({behavior:'instant'})
+    }
+  }
   return (
     
-    <div className='bg-gray-700 h-100 flex  pl-6 flex-col justify-center  text-white' id='about'>
+    <div className='bg-gray-700 h-100 flex  pl-6 flex-col justify-center  text-white' id='home'>
       <h1 className='text-4xl'>Hi, I'm Rakesh</h1>
       <p className='text-2xl mt-3 '> Full Stack  Web Developer | Tech Enthusiast</p>
       <div className='text-lg mt-5'>
@@ -17,8 +25,8 @@ function HomeCom (){
         </p>
       </div>
       <div className='mt-5 flex '>
-        
-        <Buttons name="View my work"/>
+       
+        <Buttons onClick={handleOnclick} name="View my work"/>
       </div>
       
     </div>
