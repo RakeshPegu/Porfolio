@@ -5,15 +5,20 @@
 }
 @theme {
    
-    --h-x-screen:650vh;
+    --h-x-screen:700vh;
     --text-medium:1.2em;
    --animate-throw : throw 2s ease forwards;
+   --animate-scatter: scatter 2s ease-out forwards 2s;
    @keyframes throw {
-    from {top:450px; opacity: 0.2; }
-    to { top:350px; opacity: 1;}
+    from {top:500px; opacity: 0.2; }
+    to { top:80px; opacity: 1;}
    }  
+   @keyframes scatter {
+    from {top: 400px; visibility: hidden;}
+    to { top: 150px; visibility: visible; }
 
-   
+   }
+  
       
   
 

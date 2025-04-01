@@ -1,6 +1,6 @@
 export  const Buttons = ({name, onClick})=>{
     return (
-    <button  className='bg-amber-400 h-15 hover:bg-blue-400 text-medium flex items-center justify-center w-40  rounded-3xl' onClick={onClick}>{name}</button>
+    <button  className='bg-amber-400 h-15 cursor-pointer hover:bg-blue-400 text-medium flex items-center justify-center w-40  rounded-3xl '  onClick={onClick}>{name}</button>
     );
 }
 export const H1 = ({text})=>{
