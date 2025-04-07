@@ -11,7 +11,7 @@ function About (){
             <p>I specialize in the MERN (MongoDB, Express.js, React, Node.js) stack, and I love crafting dynamic, scalable, and user-friendly applications. So far, I've worked on multiple projects that involve authentication, API integrations, real-time features, and database management.</p>
             <p>Currently, I'm exploring advanced full-stack development topics, always striving to improve my problem-solving skills and build better applications. I believe that learning never stops, and I'm always excited to take on new challenges</p>
         </div>
-        <div className='mt-30 '>
+        <div className='mt-30 ' id='skill'>
             <h1 className='text-3xl underline'>Tech Stack & Tools I Work With:</h1>
             <div className='flex flex-row gap-20  mt-10 '>
             <h2 className='text-2xl'>🔹 Frontend:</h2> 

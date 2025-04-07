@@ -2,13 +2,14 @@
 * {
     box-sizing: border-box;
     text-decoration: none;
+    
 }
 @theme {
    
-    --h-x-screen:700vh;
+   
     --text-medium:1.2em;
    --animate-throw : throw 2s ease forwards;
-   --animate-scatter: scatter 2s ease-out forwards 2s;
+   --animate-scatter: scatter 2s linear forwards 2s ;
    @keyframes throw {
     from {top:500px; opacity: 0.2; }
     to { top:80px; opacity: 1;}

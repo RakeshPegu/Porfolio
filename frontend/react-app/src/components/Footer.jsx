@@ -8,15 +8,35 @@ import { Link } from 'react-router-dom';
 
 library.add(fas, faS, faSquareFacebook, faLinkedin, faXTwitter, faSquareInstagram)
 const Footer = () => {
+  const handleAbout = ()=>{
+   const about = document.getElementById('about')
+   about.scrollIntoView({behavior: "smooth"})
+    
+  }
+  const handleContact =()=>{
+    const contact = ()=>{
+      const contact = document.getElementById('contact')
+      contact.scrollIntoView({behavior:"smooth"})
+    }
+  }
+  const handleSkill =()=>{
+    const skill = document.getElementById('skill')
+    skill.scrollIntoView({behavior:"smooth"})
+  }
+  const handleProject=()=>{
+    const project = document.getElementById('projects')
+    project.scrollIntoView({behavior: "smooth"})
+  }
   return (
     <div className='bg-gray-600 pb-5' id="contact">
     <div className="  flex flex-row pt-10 text-white">
      <div className=" flex-1 flex flex-col items-center ">
         <h2 className='text-2xl mb-5  '>INFORMATION</h2>
         <ul className='flex flex-col gap-3 text-xl'>
-            <li > <Link to='#'>About me</Link></li>
-            <li ><Link to='#'>Project </Link></li>
-            <li><Link to="#"> Skill</Link></li>
+            <li><Link onClick={handleAbout}>About me</Link></li>
+            <li ><Link onClick={handleProject}>Project </Link></li>
+            <li><Link onClick={handleSkill}> Skill</Link></li>
+            <li><Link onClick={handleContact}> Contact me</Link></li>
             
         </ul>
       </div>
